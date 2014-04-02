@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{075343E5-F132-419A-919B-E2916AF2834F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Argotic.Extensions</RootNamespace>
+    <AssemblyName>Argotic.Extensions</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Argotic.ico</ApplicationIcon>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Argotic.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Argotic.Extensions.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Argotic.Extensions.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\AtomPublishing\AtomPublishingControlSyndicationExtension.cs" />
+    <Compile Include="Core\AtomPublishing\AtomPublishingControlSyndicationExtensionContext.cs" />
+    <Compile Include="Core\AtomPublishing\AtomPublishingEditedSyndicationExtension.cs" />
+    <Compile Include="Core\AtomPublishing\AtomPublishingEditedSyndicationExtensionContext.cs" />
+    <Compile Include="Core\AtomPublishing\AtomPublishingUtility.cs" />
+    <Compile Include="Core\AtomPublishing\IAtomPublishingCommonObjectAttributes.cs" />
+    <Compile Include="Core\BasicGeocoding\BasicGeocodingSyndicationExtension.cs" />
+    <Compile Include="Core\BasicGeocoding\BasicGeocodingSyndicationExtensionContext.cs" />
+    <Compile Include="Core\BlogChannel\BlogChannelSyndicationExtension.cs" />
+    <Compile Include="Core\BlogChannel\BlogChannelSyndicationExtensionContext.cs" />
+    <Compile Include="Core\CreativeCommons\CreativeCommonsSyndicationExtension.cs" />
+    <Compile Include="Core\CreativeCommons\CreativeCommonsSyndicationExtensionContext.cs" />
+    <Compile Include="Core\DublinCore\DublinCoreElementSet\DublinCoreElementSetSyndicationExtension.cs" />
+    <Compile Include="Core\DublinCore\DublinCoreElementSet\DublinCoreElementSetSyndicationExtensionContext.cs" />
+    <Compile Include="Core\DublinCore\DublinCoreMetadataTerms\DublinCoreMetadataTermsSyndicationExtension.cs" />
+    <Compile Include="Core\DublinCore\DublinCoreMetadataTerms\DublinCoreMetadataTermsSyndicationExtensionContext.cs" />
+    <Compile Include="Core\DublinCore\DublinCoreTypeVocabularies.cs" />
+    <Compile Include="Core\FeedHistory\FeedHistoryLinkRelation.cs" />
+    <Compile Include="Core\FeedHistory\FeedHistoryLinkRelationType.cs" />
+    <Compile Include="Core\FeedHistory\FeedHistorySyndicationExtension.cs" />
+    <Compile Include="Core\FeedHistory\FeedHistorySyndicationExtensionContext.cs" />
+    <Compile Include="Core\FeedRank\FeedRankSyndicationExtension.cs" />
+    <Compile Include="Core\FeedRank\FeedRankSyndicationExtensionContext.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationConflictPreservationDirective.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationHistory.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationItem.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationRelatedInformation.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationRelatedInformationType.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationSharingInformation.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationSyndicationExtension.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationSyndicationExtensionContext.cs" />
+    <Compile Include="Core\FeedSync\FeedSynchronizationTombstoneStatus.cs" />
+    <Compile Include="Core\iTunes\ITunesCategory.cs" />
+    <Compile Include="Core\iTunes\ITunesExplicitMaterial.cs" />
+    <Compile Include="Core\iTunes\ITunesOwner.cs" />
+    <Compile Include="Core\iTunes\ITunesSyndicationExtension.cs" />
+    <Compile Include="Core\iTunes\ITunesSyndicationExtensionContext.cs" />
+    <Compile Include="Core\LiveJournal\LiveJournalMood.cs" />
+    <Compile Include="Core\LiveJournal\LiveJournalSecurity.cs" />
+    <Compile Include="Core\LiveJournal\LiveJournalSecurityType.cs" />
+    <Compile Include="Core\LiveJournal\LiveJournalSyndicationExtension.cs" />
+    <Compile Include="Core\LiveJournal\LiveJournalSyndicationExtensionContext.cs" />
+    <Compile Include="Core\LiveJournal\LiveJournalUserPicture.cs" />
+    <Compile Include="Core\Pheed\PheedSyndicationExtension.cs" />
+    <Compile Include="Core\Pheed\PheedSyndicationExtensionContext.cs" />
+    <Compile Include="Core\Pingback\PingbackSyndicationExtension.cs" />
+    <Compile Include="Core\Pingback\PingbackSyndicationExtensionContext.cs" />
+    <Compile Include="Core\SimpleList\SimpleListDataType.cs" />
+    <Compile Include="Core\SimpleList\SimpleListGroup.cs" />
+    <Compile Include="Core\SimpleList\SimpleListSort.cs" />
+    <Compile Include="Core\SimpleList\SimpleListSyndicationExtension.cs" />
+    <Compile Include="Core\SimpleList\SimpleListSyndicationExtensionContext.cs" />
+    <Compile Include="Core\SiteSummaryContent\SiteSummaryContentItem.cs" />
+    <Compile Include="Core\SiteSummaryContent\SiteSummaryContentSyndicationExtension.cs" />
+    <Compile Include="Core\SiteSummaryContent\SiteSummaryContentSyndicationExtensionContext.cs" />
+    <Compile Include="Core\SiteSummarySlash\SiteSummarySlashSyndicationExtension.cs" />
+    <Compile Include="Core\SiteSummarySlash\SiteSummarySlashSyndicationExtensionContext.cs" />
+    <Compile Include="Core\SiteSummarySyndication\SiteSummaryUpdatePeriod.cs" />
+    <Compile Include="Core\SiteSummarySyndication\SiteSummaryUpdateSyndicationExtension.cs" />
+    <Compile Include="Core\SiteSummarySyndication\SiteSummaryUpdateSyndicationExtensionContext.cs" />
+    <Compile Include="Core\Trackback\TrackbackSyndicationExtension.cs" />
+    <Compile Include="Core\Trackback\TrackbackSyndicationExtensionContext.cs" />
+    <Compile Include="Core\WellFormedWebComments\WellFormedWebCommentsSyndicationExtension.cs" />
+    <Compile Include="Core\WellFormedWebComments\WellFormedWebCommentsSyndicationExtensionContext.cs" />
+    <Compile Include="Core\YahooMedia\IYahooMediaCommonObjectEntities.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaCategory.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaContent.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaCopyright.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaCredit.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaExpression.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaGroup.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaHash.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaHashAlgorithm.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaMedium.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaPlayer.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaRating.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaRestriction.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaRestrictionRelationship.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaRestrictionType.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaSyndicationExtension.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaSyndicationExtensionContext.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaText.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaTextConstruct.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaTextConstructType.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaThumbnail.cs" />
+    <Compile Include="Core\YahooMedia\YahooMediaUtility.cs" />
+    <Compile Include="IExtensibleSyndicationObject.cs" />
+    <Compile Include="ISyndicationExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SyndicationExtension.cs" />
+    <Compile Include="SyndicationExtensionAdapter.cs" />
+    <Compile Include="SyndicationExtensionLoadedEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Argotic.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Argotic.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Argotic.Common\Argotic.Common.csproj">
+      <Project>{3554483F-2B59-4F90-B131-7C3CAD0B4769}</Project>
+      <Name>Argotic.Common %28Microsoft .NET 2.0\Argotic.Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

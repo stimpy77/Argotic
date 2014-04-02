@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C8778CD-9538-4264-A862-E3E4580D75DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Argotic.Examples</RootNamespace>
+    <AssemblyName>CodeExamplesLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>Argotic.ico</ApplicationIcon>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Argotic.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CodeExamplesLibrary.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\CodeExamplesLibrary.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Net">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ISyndicationResourceExample.cs" />
+    <Compile Include="Common\SyndicationDiscoveryUtilityExample.cs" />
+    <Compile Include="Core\Apml\ApmlDocumentExample.cs" />
+    <Compile Include="Core\Apml\ApmlApplicationExample.cs" />
+    <Compile Include="Core\Apml\ApmlAuthorExample.cs" />
+    <Compile Include="Core\Apml\ApmlConceptExample.cs" />
+    <Compile Include="Core\Apml\ApmlProfileExample.cs" />
+    <Compile Include="Core\Apml\ApmlSourceExample.cs" />
+    <Compile Include="Core\BlogML\BlogMLDocumentExample.cs" />
+    <Compile Include="Core\BlogML\BlogMLPostExample.cs" />
+    <Compile Include="Core\BlogML\BlogMLTextConstructExample.cs" />
+    <Compile Include="Core\GenericSyndicationFeedExample.cs" />
+    <Compile Include="Core\Atom\AtomFeedExample.cs" />
+    <Compile Include="Core\Atom\AtomEntryExample.cs" />
+    <Compile Include="Core\Atom\AtomCategoryExample.cs" />
+    <Compile Include="Core\Atom\AtomContentExample.cs" />
+    <Compile Include="Core\Atom\AtomGeneratorExample.cs" />
+    <Compile Include="Core\Atom\AtomIconExample.cs" />
+    <Compile Include="Core\Atom\AtomIdExample.cs" />
+    <Compile Include="Core\Atom\AtomLinkExample.cs" />
+    <Compile Include="Core\Atom\AtomLogoExample.cs" />
+    <Compile Include="Core\Atom\AtomPersonConstructExample.cs" />
+    <Compile Include="Core\Atom\AtomSourceExample.cs" />
+    <Compile Include="Core\Atom\AtomTextConstructExample.cs" />
+    <Compile Include="Core\Net\XmlRpcClientExample.cs" />
+    <Compile Include="Core\Net\TrackbackClientExample.cs" />
+    <Compile Include="Core\Opml\OpmlDocumentExample.cs" />
+    <Compile Include="Core\Opml\OpmlOutlineExample.cs" />
+    <Compile Include="Core\Rsd\RsdDocumentExample.cs" />
+    <Compile Include="Core\Rsd\RsdApplicationInterfaceExample.cs" />
+    <Compile Include="Core\Rss\RssTextInputExample.cs" />
+    <Compile Include="Core\Rss\RssSourceExample.cs" />
+    <Compile Include="Core\Rss\RssItemExample.cs" />
+    <Compile Include="Core\Rss\RssImageExample.cs" />
+    <Compile Include="Core\Rss\RssGuidExample.cs" />
+    <Compile Include="Core\Rss\RssFeedExample.cs" />
+    <Compile Include="Core\Rss\RssEnclosureExample.cs" />
+    <Compile Include="Core\Rss\RssCloudExample.cs" />
+    <Compile Include="Core\Rss\RssChannelExample.cs" />
+    <Compile Include="Core\Rss\RssCategoryExample.cs" />
+    <Compile Include="Extensions\Core\BasicGeocodingSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\BlogChannelSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\CreativeCommonsSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\DublinCoreElementSetSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\DublinCoreMetadataTermsSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\PingbackSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\SimpleListSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\SiteSummaryContentSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\SiteSummarySlashSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\SiteSummaryUpdateSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\TrackbackSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\WellFormedWebCommentsSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\YahooMediaSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\FeedHistorySyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\FeedRankSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\FeedSynchronizationSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\ITunesSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\LiveJournalSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\Core\PheedSyndicationExtensionExample.cs" />
+    <Compile Include="Extensions\SyndicationExtensionExample.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Microsoft .NET 3.5\Argotic.Common\Argotic.Common.csproj">
+      <Project>{79D1199E-CB01-4EC5-B778-7D54605B92F3}</Project>
+      <Name>Argotic.Common %28Microsoft .NET 3.5\Argotic.Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Microsoft .NET 3.5\Argotic.Core\Argotic.Core.csproj">
+      <Project>{811ECA97-C7B9-4D4B-8D02-A15B26022AED}</Project>
+      <Name>Argotic.Core %28Microsoft .NET 3.5\Argotic.Core%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Microsoft .NET 3.5\Argotic.Extensions\Argotic.Extensions.csproj">
+      <Project>{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}</Project>
+      <Name>Argotic.Extensions %28Microsoft .NET 3.5\Argotic.Extensions%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Microsoft .NET 3.5\Argotic.Web\Argotic.Web.csproj">
+      <Project>{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}</Project>
+      <Name>Argotic.Web %28Microsoft .NET 3.5\Argotic.Web%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Argotic.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Argotic.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Web\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB36FC8D-EE55-4798-A6FE-37D5D87A64D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Argotic.Core</RootNamespace>
+    <AssemblyName>Argotic.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Argotic.ico</ApplicationIcon>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Argotic.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Argotic.Core.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Argotic.Core.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\PrivilegedConfigurationManager.cs" />
+    <Compile Include="Configuration\Provider\SyndicationResourceCreateStatus.cs" />
+    <Compile Include="Configuration\Provider\SyndicationResourceProvider.cs" />
+    <Compile Include="Configuration\Provider\SyndicationResourceProviderCollection.cs" />
+    <Compile Include="Configuration\Provider\SyndicationResourceSection.cs" />
+    <Compile Include="Configuration\Provider\XmlSyndicationResourceProvider.cs" />
+    <Compile Include="Configuration\TrackbackClientNetworkElement.cs" />
+    <Compile Include="Configuration\TrackbackClientSection.cs" />
+    <Compile Include="Configuration\XmlRpcClientNetworkElement.cs" />
+    <Compile Include="Configuration\XmlRpcClientSection.cs" />
+    <Compile Include="Data\Adapters\Core\Apml06SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Core\Atom10SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Core\AtomPublishing10SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Core\BlogML20SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Core\Opml20SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Core\Rsd10SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Core\Rss20SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Legacy\Atom03SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Legacy\Rsd06SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Legacy\Rss090SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Legacy\Rss091SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Legacy\Rss092SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\Legacy\Rss10SyndicationResourceAdapter.cs" />
+    <Compile Include="Data\Adapters\SyndicationResourceAdapter.cs" />
+    <Compile Include="Net\Trackback\TrackbackClient.cs" />
+    <Compile Include="Net\Trackback\TrackbackMessage.cs" />
+    <Compile Include="Net\Trackback\TrackbackMessageSentEventArgs.cs" />
+    <Compile Include="Net\Trackback\TrackbackResponse.cs" />
+    <Compile Include="Net\WebContentType.cs" />
+    <Compile Include="Net\XmlRpc\IXmlRpcValue.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcArrayValue.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcClient.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcMessage.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcMessageSentEventArgs.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcResponse.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcScalarValue.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcScalarValueType.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcStructureMember.cs" />
+    <Compile Include="Net\XmlRpc\XmlRpcStructureValue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publishing\AtomAcceptedMediaRange.cs" />
+    <Compile Include="Publishing\AtomCategoryDocument.cs" />
+    <Compile Include="Publishing\AtomMemberResources.cs" />
+    <Compile Include="Publishing\AtomServiceDocument.cs" />
+    <Compile Include="Publishing\AtomWorkspace.cs" />
+    <Compile Include="Syndication\Atom\AtomCategory.cs" />
+    <Compile Include="Syndication\Atom\AtomContent.cs" />
+    <Compile Include="Syndication\Atom\AtomEntry.cs" />
+    <Compile Include="Syndication\Atom\AtomFeed.cs" />
+    <Compile Include="Syndication\Atom\AtomGenerator.cs" />
+    <Compile Include="Syndication\Atom\AtomIcon.cs" />
+    <Compile Include="Syndication\Atom\AtomId.cs" />
+    <Compile Include="Syndication\Atom\AtomLink.cs" />
+    <Compile Include="Syndication\Atom\AtomLogo.cs" />
+    <Compile Include="Syndication\Atom\AtomPersonConstruct.cs" />
+    <Compile Include="Syndication\Atom\AtomSource.cs" />
+    <Compile Include="Syndication\Atom\AtomTextConstruct.cs" />
+    <Compile Include="Syndication\Atom\AtomTextConstructType.cs" />
+    <Compile Include="Syndication\Atom\AtomUtility.cs" />
+    <Compile Include="Syndication\Atom\IAtomCommonObjectAttributes.cs" />
+    <Compile Include="Syndication\GenericSyndicationCategory.cs" />
+    <Compile Include="Syndication\GenericSyndicationFeed.cs" />
+    <Compile Include="Syndication\GenericSyndicationItem.cs" />
+    <Compile Include="Syndication\Opml\OpmlDocument.cs" />
+    <Compile Include="Syndication\Opml\OpmlHead.cs" />
+    <Compile Include="Syndication\Opml\OpmlOutline.cs" />
+    <Compile Include="Syndication\Opml\OpmlOwner.cs" />
+    <Compile Include="Syndication\Opml\OpmlWindow.cs" />
+    <Compile Include="Syndication\Rss\RssCategory.cs" />
+    <Compile Include="Syndication\Rss\RssChannel.cs" />
+    <Compile Include="Syndication\Rss\RssCloud.cs" />
+    <Compile Include="Syndication\Rss\RssCloudProtocol.cs" />
+    <Compile Include="Syndication\Rss\RssEnclosure.cs" />
+    <Compile Include="Syndication\Rss\RssFeed.cs" />
+    <Compile Include="Syndication\Rss\RssGuid.cs" />
+    <Compile Include="Syndication\Rss\RssImage.cs" />
+    <Compile Include="Syndication\Rss\RssItem.cs" />
+    <Compile Include="Syndication\Rss\RssSource.cs" />
+    <Compile Include="Syndication\Rss\RssTextInput.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlApplication.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlAuthor.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlConcept.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlDocument.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlHead.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlProfile.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlSource.cs" />
+    <Compile Include="Syndication\Specialized\Apml\ApmlUtility.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLApprovalStatus.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLAttachment.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLAuthor.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLCategory.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLComment.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLContentType.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLDocument.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLPost.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLPostType.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLTextConstruct.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLTrackback.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\BlogMLUtility.cs" />
+    <Compile Include="Syndication\Specialized\BlogML\IBlogMLCommonObject.cs" />
+    <Compile Include="Syndication\Specialized\Rsd\RsdApplicationInterface.cs" />
+    <Compile Include="Syndication\Specialized\Rsd\RsdDocument.cs" />
+    <Compile Include="Syndication\Specialized\Rsd\RsdUtility.cs" />
+    <Compile Include="Syndication\SyndicationManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Argotic.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Argotic.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Argotic.Common\Argotic.Common.csproj">
+      <Project>{3554483F-2B59-4F90-B131-7C3CAD0B4769}</Project>
+      <Name>Argotic.Common %28Microsoft .NET 2.0\Argotic.Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Argotic.Extensions\Argotic.Extensions.csproj">
+      <Project>{075343E5-F132-419A-919B-E2916AF2834F}</Project>
+      <Name>Argotic.Extensions %28Microsoft .NET 2.0\Argotic.Extensions%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Syndication\Specialized\MicroSummary\" />
+    <Folder Include="Syndication\Specialized\NewsML\" />
+    <Folder Include="Syndication\Specialized\OpenSearch\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,189 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft .NET 3.5", "Microsoft .NET 3.5", "{D22C9D9B-8642-4E5B-B086-D11F9B18D79F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft .NET 2.0", "Microsoft .NET 2.0", "{B8B24DFB-00EE-4F0C-9F44-D0031E2CD5B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{E0FE3E32-BB14-4C34-8F18-35F607033953}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ReadMe.txt = Documentation\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft .NET 3.5", "Microsoft .NET 3.5", "{1BE60D8F-5705-48F5-88B3-C2F7F4F04A42}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Microsoft .NET 3.5\Argotic.NDependProject.xml = Documentation\Microsoft .NET 3.5\Argotic.NDependProject.xml
+		Documentation\Microsoft .NET 3.5\Argotic.shfb = Documentation\Microsoft .NET 3.5\Argotic.shfb
+		Documentation\Microsoft .NET 3.5\Argotic.shfb.sitemap = Documentation\Microsoft .NET 3.5\Argotic.shfb.sitemap
+		Documentation\Microsoft .NET 3.5\NDepend.Report.xsl = Documentation\Microsoft .NET 3.5\NDepend.Report.xsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft .NET 2.0", "Microsoft .NET 2.0", "{B4F4B3F5-026F-4A5F-896D-EFB2BF3D9341}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Microsoft .NET 2.0\Argotic.NDependProject.xml = Documentation\Microsoft .NET 2.0\Argotic.NDependProject.xml
+		Documentation\Microsoft .NET 2.0\Argotic.shfb = Documentation\Microsoft .NET 2.0\Argotic.shfb
+		Documentation\Microsoft .NET 2.0\Argotic.shfb.sitemap = Documentation\Microsoft .NET 2.0\Argotic.shfb.sitemap
+		Documentation\Microsoft .NET 2.0\NDepend.Report.xsl = Documentation\Microsoft .NET 2.0\NDepend.Report.xsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{1F115316-CFD3-4EB2-8866-E0D09FC53209}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Argotic.wxs = Deployment\Argotic.wxs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{AAB59DF7-4A1E-48F5-B016-75D67619B5FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft .NET 3.5", "Microsoft .NET 3.5", "{8E2720E6-709B-4355-A7F8-C95F20890697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft .NET 2.0", "Microsoft .NET 2.0", "{0F3719D0-719A-4C80-BAC9-8006DA582288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing", "Unit Testing", "{528A9AE5-3A77-4F34-B28D-9A9E901A1DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing", "Unit Testing", "{BCE89732-F859-4C48-9941-7B899BAEBD84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D512D6E0-3FA6-4591-A2CA-5776FE2F17B8}"
+	ProjectSection(SolutionItems) = preProject
+		Argotic2.vsmdi = Argotic2.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Common", "Microsoft .NET 3.5\Argotic.Common\Argotic.Common.csproj", "{79D1199E-CB01-4EC5-B778-7D54605B92F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Core", "Microsoft .NET 3.5\Argotic.Core\Argotic.Core.csproj", "{811ECA97-C7B9-4D4B-8D02-A15B26022AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Extensions", "Microsoft .NET 3.5\Argotic.Extensions\Argotic.Extensions.csproj", "{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Common", "Microsoft .NET 2.0\Argotic.Common\Argotic.Common.csproj", "{3554483F-2B59-4F90-B131-7C3CAD0B4769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Core", "Microsoft .NET 2.0\Argotic.Core\Argotic.Core.csproj", "{FB36FC8D-EE55-4798-A6FE-37D5D87A64D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Extensions", "Microsoft .NET 2.0\Argotic.Extensions\Argotic.Extensions.csproj", "{075343E5-F132-419A-919B-E2916AF2834F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Web", "Microsoft .NET 3.5\Argotic.Web\Argotic.Web.csproj", "{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Web", "Microsoft .NET 2.0\Argotic.Web\Argotic.Web.csproj", "{AAA691FA-7092-43FD-9BFF-5D10C510296C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExamplesLibrary", "Documentation\Microsoft .NET 3.5\CodeExamplesLibrary\CodeExamplesLibrary.csproj", "{2C8778CD-9538-4264-A862-E3E4580D75DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExamplesLibrary", "Documentation\Microsoft .NET 2.0\CodeExamplesLibrary\CodeExamplesLibrary.csproj", "{72E7CA7E-870A-4C9B-90D3-1D0771633C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Common.Tests", "Microsoft .NET 3.5\Unit Testing\Argotic.Common.Tests\Argotic.Common.Tests.csproj", "{3F79DCA1-B405-46AF-9496-0957D8A1997D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Core.Tests", "Microsoft .NET 3.5\Unit Testing\Argotic.Core.Tests\Argotic.Core.Tests.csproj", "{77D9B0AB-0B75-4692-A137-3E783701E482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Extensions.Tests", "Microsoft .NET 3.5\Unit Testing\Argotic.Extensions.Tests\Argotic.Extensions.Tests.csproj", "{6E46E1A8-D8BA-4569-9CA6-2BE61E483DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Web.Tests", "Microsoft .NET 3.5\Unit Testing\Argotic.Web.Tests\Argotic.Web.Tests.csproj", "{E12EA1C6-1C15-4AF7-B37C-A4A9C44AF1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Common.Tests", "Microsoft .NET 2.0\Unit Testing\Argotic.Common.Tests\Argotic.Common.Tests.csproj", "{ACFB9141-4DFE-422A-862C-04CECBB41FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Core.Tests", "Microsoft .NET 2.0\Unit Testing\Argotic.Core.Tests\Argotic.Core.Tests.csproj", "{E5111F06-5CAA-42AA-AFE0-89E10EA2F4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Extensions.Tests", "Microsoft .NET 2.0\Unit Testing\Argotic.Extensions.Tests\Argotic.Extensions.Tests.csproj", "{06A0591B-A81F-4EDE-B0FC-786B945D8E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argotic.Web.Tests", "Microsoft .NET 2.0\Unit Testing\Argotic.Web.Tests\Argotic.Web.Tests.csproj", "{17A7BF0A-8173-49C0-A6EC-4F015B401BB7}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Argotic2.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79D1199E-CB01-4EC5-B778-7D54605B92F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D1199E-CB01-4EC5-B778-7D54605B92F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D1199E-CB01-4EC5-B778-7D54605B92F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D1199E-CB01-4EC5-B778-7D54605B92F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811ECA97-C7B9-4D4B-8D02-A15B26022AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811ECA97-C7B9-4D4B-8D02-A15B26022AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811ECA97-C7B9-4D4B-8D02-A15B26022AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811ECA97-C7B9-4D4B-8D02-A15B26022AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3554483F-2B59-4F90-B131-7C3CAD0B4769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3554483F-2B59-4F90-B131-7C3CAD0B4769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3554483F-2B59-4F90-B131-7C3CAD0B4769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB36FC8D-EE55-4798-A6FE-37D5D87A64D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB36FC8D-EE55-4798-A6FE-37D5D87A64D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB36FC8D-EE55-4798-A6FE-37D5D87A64D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075343E5-F132-419A-919B-E2916AF2834F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075343E5-F132-419A-919B-E2916AF2834F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075343E5-F132-419A-919B-E2916AF2834F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA691FA-7092-43FD-9BFF-5D10C510296C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA691FA-7092-43FD-9BFF-5D10C510296C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA691FA-7092-43FD-9BFF-5D10C510296C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8778CD-9538-4264-A862-E3E4580D75DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8778CD-9538-4264-A862-E3E4580D75DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8778CD-9538-4264-A862-E3E4580D75DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8778CD-9538-4264-A862-E3E4580D75DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E7CA7E-870A-4C9B-90D3-1D0771633C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E7CA7E-870A-4C9B-90D3-1D0771633C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E7CA7E-870A-4C9B-90D3-1D0771633C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F79DCA1-B405-46AF-9496-0957D8A1997D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F79DCA1-B405-46AF-9496-0957D8A1997D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F79DCA1-B405-46AF-9496-0957D8A1997D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F79DCA1-B405-46AF-9496-0957D8A1997D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D9B0AB-0B75-4692-A137-3E783701E482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D9B0AB-0B75-4692-A137-3E783701E482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D9B0AB-0B75-4692-A137-3E783701E482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D9B0AB-0B75-4692-A137-3E783701E482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E46E1A8-D8BA-4569-9CA6-2BE61E483DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E46E1A8-D8BA-4569-9CA6-2BE61E483DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E46E1A8-D8BA-4569-9CA6-2BE61E483DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E46E1A8-D8BA-4569-9CA6-2BE61E483DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12EA1C6-1C15-4AF7-B37C-A4A9C44AF1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12EA1C6-1C15-4AF7-B37C-A4A9C44AF1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12EA1C6-1C15-4AF7-B37C-A4A9C44AF1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12EA1C6-1C15-4AF7-B37C-A4A9C44AF1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFB9141-4DFE-422A-862C-04CECBB41FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFB9141-4DFE-422A-862C-04CECBB41FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFB9141-4DFE-422A-862C-04CECBB41FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5111F06-5CAA-42AA-AFE0-89E10EA2F4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5111F06-5CAA-42AA-AFE0-89E10EA2F4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5111F06-5CAA-42AA-AFE0-89E10EA2F4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A0591B-A81F-4EDE-B0FC-786B945D8E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A0591B-A81F-4EDE-B0FC-786B945D8E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A0591B-A81F-4EDE-B0FC-786B945D8E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A7BF0A-8173-49C0-A6EC-4F015B401BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A7BF0A-8173-49C0-A6EC-4F015B401BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A7BF0A-8173-49C0-A6EC-4F015B401BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{528A9AE5-3A77-4F34-B28D-9A9E901A1DA4} = {D22C9D9B-8642-4E5B-B086-D11F9B18D79F}
+		{79D1199E-CB01-4EC5-B778-7D54605B92F3} = {D22C9D9B-8642-4E5B-B086-D11F9B18D79F}
+		{811ECA97-C7B9-4D4B-8D02-A15B26022AED} = {D22C9D9B-8642-4E5B-B086-D11F9B18D79F}
+		{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6} = {D22C9D9B-8642-4E5B-B086-D11F9B18D79F}
+		{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A} = {D22C9D9B-8642-4E5B-B086-D11F9B18D79F}
+		{BCE89732-F859-4C48-9941-7B899BAEBD84} = {B8B24DFB-00EE-4F0C-9F44-D0031E2CD5B9}
+		{3554483F-2B59-4F90-B131-7C3CAD0B4769} = {B8B24DFB-00EE-4F0C-9F44-D0031E2CD5B9}
+		{FB36FC8D-EE55-4798-A6FE-37D5D87A64D0} = {B8B24DFB-00EE-4F0C-9F44-D0031E2CD5B9}
+		{075343E5-F132-419A-919B-E2916AF2834F} = {B8B24DFB-00EE-4F0C-9F44-D0031E2CD5B9}
+		{AAA691FA-7092-43FD-9BFF-5D10C510296C} = {B8B24DFB-00EE-4F0C-9F44-D0031E2CD5B9}
+		{1BE60D8F-5705-48F5-88B3-C2F7F4F04A42} = {E0FE3E32-BB14-4C34-8F18-35F607033953}
+		{B4F4B3F5-026F-4A5F-896D-EFB2BF3D9341} = {E0FE3E32-BB14-4C34-8F18-35F607033953}
+		{2C8778CD-9538-4264-A862-E3E4580D75DA} = {1BE60D8F-5705-48F5-88B3-C2F7F4F04A42}
+		{72E7CA7E-870A-4C9B-90D3-1D0771633C2A} = {B4F4B3F5-026F-4A5F-896D-EFB2BF3D9341}
+		{8E2720E6-709B-4355-A7F8-C95F20890697} = {AAB59DF7-4A1E-48F5-B016-75D67619B5FA}
+		{0F3719D0-719A-4C80-BAC9-8006DA582288} = {AAB59DF7-4A1E-48F5-B016-75D67619B5FA}
+		{D512D6E0-3FA6-4591-A2CA-5776FE2F17B8} = {528A9AE5-3A77-4F34-B28D-9A9E901A1DA4}
+		{3F79DCA1-B405-46AF-9496-0957D8A1997D} = {528A9AE5-3A77-4F34-B28D-9A9E901A1DA4}
+		{77D9B0AB-0B75-4692-A137-3E783701E482} = {528A9AE5-3A77-4F34-B28D-9A9E901A1DA4}
+		{6E46E1A8-D8BA-4569-9CA6-2BE61E483DDB} = {528A9AE5-3A77-4F34-B28D-9A9E901A1DA4}
+		{E12EA1C6-1C15-4AF7-B37C-A4A9C44AF1C3} = {528A9AE5-3A77-4F34-B28D-9A9E901A1DA4}
+		{ACFB9141-4DFE-422A-862C-04CECBB41FDA} = {BCE89732-F859-4C48-9941-7B899BAEBD84}
+		{E5111F06-5CAA-42AA-AFE0-89E10EA2F4CD} = {BCE89732-F859-4C48-9941-7B899BAEBD84}
+		{06A0591B-A81F-4EDE-B0FC-786B945D8E4D} = {BCE89732-F859-4C48-9941-7B899BAEBD84}
+		{17A7BF0A-8173-49C0-A6EC-4F015B401BB7} = {BCE89732-F859-4C48-9941-7B899BAEBD84}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+This CodePlex-legacy folder contains the original source found at the original project site at http://argotic.codeplex.com/

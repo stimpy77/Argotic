@@ -1,0 +1,75 @@
+﻿<project schemaVersion="1.6.0.7">
+    <assemblies>
+        <assembly assemblyPath="..\..\Microsoft .NET 2.0\Argotic.Core\bin\Release\Argotic.Common.dll" xmlCommentsPath="..\..\Microsoft .NET 2.0\Argotic.Core\bin\Release\Argotic.Common.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\..\Microsoft .NET 2.0\Argotic.Core\bin\Release\Argotic.Core.dll" xmlCommentsPath="..\..\Microsoft .NET 2.0\Argotic.Core\bin\Release\Argotic.Core.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\..\Microsoft .NET 2.0\Argotic.Core\bin\Release\Argotic.Extensions.dll" xmlCommentsPath="..\..\Microsoft .NET 2.0\Argotic.Core\bin\Release\Argotic.Extensions.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\..\Microsoft .NET 2.0\Argotic.Web\bin\Release\Argotic.Web.dll" xmlCommentsPath="..\..\Microsoft .NET 2.0\Argotic.Web\bin\Release\Argotic.Web.xml" commentsOnly="False" />
+    </assemblies>
+    <namespaceSummaries>
+        <namespaceSummaryItem name="" isDocumented="False" />
+        <namespaceSummaryItem name="Argotic.Common" isDocumented="True">The Argotic.Common namespace contains classes, interfaces, and enumerations shared by the Argotic Syndication Framework entities.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Configuration" isDocumented="True">The Argotic.Configuration namespace contains the types that provide the programming model for handling configuration data.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Configuration.Provider" isDocumented="True">The Argotic.Configuration.Provider namespace contains the base classes shared by both server and client applications to support a pluggable model to easily add or remove functionality.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Data.Adapters" isDocumented="True">The Argotic.Data.Adapters namespace provides access to classes that represent the syndication adapter architecture. The adapter architecture provides a means of instantiating syndication entities from XML data sources.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Extensions" isDocumented="True">The Argotic.Extensions namespace contains the classes, interfaces, and enumerations that enable web content syndication extensibility.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Extensions.Core" isDocumented="True">The Argotic.Extensions.Core namespace contains native framework implementations of the most commonly utilized web content syndication extensions.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Net" isDocumented="True">The Argotic.Net namespace contains the classes, interfaces, and enumerations that provide a simple programming interface for many of the protocols used in web content syndication. These programming interfaces enable you to develop applications that communicate with syndicated web resources without worrying about the specific details of the individual protocols.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Syndication" isDocumented="True">The Argotic.Syndication namespace contains implementations of the core Atom, OPML, and RSS syndication specifications, as well as a generic syndication resource abstraction layer and syndicated content manager that utilizes the framework extensible provider model.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Syndication.Specialized" isDocumented="True">The Argotic.Syndication.Specialized namespace contains implementations of specialized web content syndication formats.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Argotic.Web" isDocumented="True">The Argotic.Web namespace supplies classes and interfaces that enable web content syndication browser-server communication.</namespaceSummaryItem>
+    </namespaceSummaries>
+    <additionalContent contentSiteMap=".\Argotic.shfb.sitemap" topicFileTransform="">
+        <contentItem sourcePath="..\License.htm" destPath="" excludeItems="False" />
+        <contentItem sourcePath="..\Welcome.htm" destPath="" excludeItems="False" />
+        <contentItem sourcePath=".\NDependOut\AbstractnessVSInstability.png" destPath="" excludeItems="False" />
+        <contentItem sourcePath=".\NDependOut\ComponentDependenciesDiagram.png" destPath="" excludeItems="False" />
+        <contentItem sourcePath=".\NDependOut\NDependReport.html" destPath="" excludeItems="False" />
+        <contentItem sourcePath=".\NDependOut\VisualNDependView.png" destPath="" excludeItems="False" />
+        <contentItem sourcePath="..\Images\*.*" destPath="Images\" excludeItems="False" />
+        <contentItem sourcePath="..\Argotic.gif" destPath="" excludeItems="False" />
+    </additionalContent>
+    <dependencies>
+        <dependencyItem depPath="C:\Windows\Microsoft.NET\Framework\v2.0.50727\*.*" />
+    </dependencies>
+    <ProjectSummary>The Argotic Syndication Framework is a Microsoft .NET class library framework that enables developers to easily consume and/or generate syndicated content from within their own applications. The framework makes the reading and writing syndicated content in common formats such as RSS, Atom, and OPML very easy while still remaining extensible enough to support common/custom extensions to the syndication publishing formats. The framework includes out-of-the-box implementations of the most commonly used syndication extensions, network clients for sending and receiving peer-to-peer notification protocol messages, as well as HTTP handlers, modules, services and controls that provide rich syndication functionality to ASP.NET developers.</ProjectSummary>
+    <MissingTags>Summary, Parameter, Returns, Value, AutoDocumentCtors, Namespace, TypeParameter</MissingTags>
+    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Protected, SealedProtected</VisibleItems>
+    <HtmlHelp1xCompilerPath path="C:\Program Files\HTML Help Workshop\" />
+    <HtmlHelp2xCompilerPath path="C:\Program Files\Common Files\microsoft shared\Help 2.0 Compiler\" />
+    <OutputPath>.\Help\</OutputPath>
+    <SandcastlePath path="D:\Program Files\Sandcastle\" />
+    <WorkingPath path="" />
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>False</KeepLogFile>
+    <BuildLogFile path="" />
+    <HelpFileFormat>Help1xAndHelp2x</HelpFileFormat>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <IndentHtml>False</IndentHtml>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>True</RootNamespaceContainer>
+    <RootNamespaceTitle>Application Programming Interface (API)</RootNamespaceTitle>
+    <HelpTitle>Argotic Syndication Framework (Microsoft .NET 2.0)</HelpTitle>
+    <HtmlHelpName>ArgoticFramework</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref>http://www.codeplex.com/argotic/license</CopyrightHref>
+    <CopyrightText>Copyright © Brian William Kuhn 2008, Some Rights Reserved</CopyrightText>
+    <FeedbackEMailAddress>oppositional@gmail.com</FeedbackEMailAddress>
+    <FeedbackEMailLinkText />
+    <HeaderText />
+    <FooterText />
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Msdn</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>hana</PresentationStyle>
+    <NamingMethod>Guid</NamingMethod>
+    <SyntaxFilters>CSharp</SyntaxFilters>
+    <ShowFeedbackControl>True</ShowFeedbackControl>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>True</IncludeFavorites>
+    <CollectionTocStyle>Hierarchical</CollectionTocStyle>
+    <IncludeStopWordList>True</IncludeStopWordList>
+    <PlugInNamespaces>ms.vsipcc+, ms.vsexpresscc+</PlugInNamespaces>
+    <HelpFileVersion>2008.0.2.0</HelpFileVersion>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+</project>
