@@ -69,19 +69,19 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Argotic.Common\Argotic.Common.csproj">
       <Project>{79D1199E-CB01-4EC5-B778-7D54605B92F3}</Project>
-      <Name>Argotic.Common %28Microsoft .NET 3.5\Argotic.Common%29</Name>
+      <Name>Argotic.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Argotic.Core\Argotic.Core.csproj">
       <Project>{811ECA97-C7B9-4D4B-8D02-A15B26022AED}</Project>
-      <Name>Argotic.Core %28Microsoft .NET 3.5\Argotic.Core%29</Name>
+      <Name>Argotic.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Argotic.Extensions\Argotic.Extensions.csproj">
       <Project>{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}</Project>
-      <Name>Argotic.Extensions %28Microsoft .NET 3.5\Argotic.Extensions%29</Name>
+      <Name>Argotic.Extensions</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Argotic.Web\Argotic.Web.csproj">
       <Project>{9D6EE539-8662-4D88-A41C-92FB1D5DDB3A}</Project>
-      <Name>Argotic.Web %28Microsoft .NET 3.5\Argotic.Web%29</Name>
+      <Name>Argotic.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="M:\dev\prj\Argotic\Argotic.Packager\lib\Net45\Argotic.Common.dll">
+   <Modules>
+    <Module Name="argotic.common.dll">
+     <Namespaces>
+      <Namespace Name="Argotic.Common">
+       <Types>
+        <Type Name="DiscoverableSyndicationEndpoint" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.DiscoverableSyndicationEndpoint,Argotic.Common.DiscoverableSyndicationEndpoint)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="DiscoverableSyndicationEndpoint.cs" Line="357">In externally visible method 'DiscoverableSyndicationEndpoint.operator ==(DiscoverableSyndicationEndpoint, DiscoverableSyndicationEndpoint)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.DiscoverableSyndicationEndpoint,Argotic.Common.DiscoverableSyndicationEndpoint)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="DiscoverableSyndicationEndpoint.cs" Line="420">In externally visible method 'DiscoverableSyndicationEndpoint.operator &gt;(DiscoverableSyndicationEndpoint, DiscoverableSyndicationEndpoint)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.DiscoverableSyndicationEndpoint,Argotic.Common.DiscoverableSyndicationEndpoint)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="DiscoverableSyndicationEndpoint.cs" Line="395">In externally visible method 'DiscoverableSyndicationEndpoint.operator &lt;(DiscoverableSyndicationEndpoint, DiscoverableSyndicationEndpoint)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EnumerationMetadataAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.EnumerationMetadataAttribute,Argotic.Common.EnumerationMetadataAttribute)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="EnumerationMetadataAttribute.cs" Line="219">In externally visible method 'EnumerationMetadataAttribute.operator ==(EnumerationMetadataAttribute, EnumerationMetadataAttribute)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.EnumerationMetadataAttribute,Argotic.Common.EnumerationMetadataAttribute)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="EnumerationMetadataAttribute.cs" Line="282">In externally visible method 'EnumerationMetadataAttribute.operator &gt;(EnumerationMetadataAttribute, EnumerationMetadataAttribute)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.EnumerationMetadataAttribute,Argotic.Common.EnumerationMetadataAttribute)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="EnumerationMetadataAttribute.cs" Line="257">In externally visible method 'EnumerationMetadataAttribute.operator &lt;(EnumerationMetadataAttribute, EnumerationMetadataAttribute)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MimeMediaTypeAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.MimeMediaTypeAttribute,Argotic.Common.MimeMediaTypeAttribute)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="MimeMediaTypeAttribute.cs" Line="261">In externally visible method 'MimeMediaTypeAttribute.operator ==(MimeMediaTypeAttribute, MimeMediaTypeAttribute)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.MimeMediaTypeAttribute,Argotic.Common.MimeMediaTypeAttribute)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="MimeMediaTypeAttribute.cs" Line="324">In externally visible method 'MimeMediaTypeAttribute.operator &gt;(MimeMediaTypeAttribute, MimeMediaTypeAttribute)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.MimeMediaTypeAttribute,Argotic.Common.MimeMediaTypeAttribute)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="MimeMediaTypeAttribute.cs" Line="299">In externally visible method 'MimeMediaTypeAttribute.operator &lt;(MimeMediaTypeAttribute, MimeMediaTypeAttribute)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationDateTimeUtility" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ReplaceRfc822TimeZoneWithOffset(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="169">Method 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' passes 's' as the 'paramName' argument to a 'ArgumentNullException' constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method.</Issue>
+            </Message>
+            <Message Id="System.String.LastIndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="174">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="178">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="182">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="187">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="191">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="195">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="199">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="203">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="207">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="211">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="215">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="219">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="223">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="227">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="231">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDateTimeUtility.cs" Line="235">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'SyndicationDateTimeUtility.ReplaceRfc822TimeZoneWithOffset(string)' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationDiscoveryUtility" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#SourceReferencesTarget(System.Uri,System.Uri,System.Net.ICredentials)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationDiscoveryUtility.cs" Line="547">Object 'stream' can be disposed more than once in method 'SyndicationDiscoveryUtility.SourceReferencesTarget(Uri, Uri, ICredentials)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 547</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationEncodingUtility" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DecodeBase64String(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationEncodingUtility.cs" Line="470">In method 'SyndicationEncodingUtility.DecodeBase64String(string)', object 'stream' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'stream' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationResourceLoadedEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.SyndicationResourceLoadedEventArgs,Argotic.Common.SyndicationResourceLoadedEventArgs)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceLoadedEventArgs.cs" Line="410">In externally visible method 'SyndicationResourceLoadedEventArgs.operator ==(SyndicationResourceLoadedEventArgs, SyndicationResourceLoadedEventArgs)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.SyndicationResourceLoadedEventArgs,Argotic.Common.SyndicationResourceLoadedEventArgs)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceLoadedEventArgs.cs" Line="473">In externally visible method 'SyndicationResourceLoadedEventArgs.operator &gt;(SyndicationResourceLoadedEventArgs, SyndicationResourceLoadedEventArgs)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.SyndicationResourceLoadedEventArgs,Argotic.Common.SyndicationResourceLoadedEventArgs)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceLoadedEventArgs.cs" Line="448">In externally visible method 'SyndicationResourceLoadedEventArgs.operator &lt;(SyndicationResourceLoadedEventArgs, SyndicationResourceLoadedEventArgs)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationResourceLoadSettings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.SyndicationResourceLoadSettings,Argotic.Common.SyndicationResourceLoadSettings)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceLoadSettings.cs" Line="313">In externally visible method 'SyndicationResourceLoadSettings.operator ==(SyndicationResourceLoadSettings, SyndicationResourceLoadSettings)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.SyndicationResourceLoadSettings,Argotic.Common.SyndicationResourceLoadSettings)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceLoadSettings.cs" Line="376">In externally visible method 'SyndicationResourceLoadSettings.operator &gt;(SyndicationResourceLoadSettings, SyndicationResourceLoadSettings)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.SyndicationResourceLoadSettings,Argotic.Common.SyndicationResourceLoadSettings)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceLoadSettings.cs" Line="351">In externally visible method 'SyndicationResourceLoadSettings.operator &lt;(SyndicationResourceLoadSettings, SyndicationResourceLoadSettings)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationResourceMetadata" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.SyndicationResourceMetadata,Argotic.Common.SyndicationResourceMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceMetadata.cs" Line="1114">In externally visible method 'SyndicationResourceMetadata.operator ==(SyndicationResourceMetadata, SyndicationResourceMetadata)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.SyndicationResourceMetadata,Argotic.Common.SyndicationResourceMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceMetadata.cs" Line="1177">In externally visible method 'SyndicationResourceMetadata.operator &gt;(SyndicationResourceMetadata, SyndicationResourceMetadata)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.SyndicationResourceMetadata,Argotic.Common.SyndicationResourceMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceMetadata.cs" Line="1152">In externally visible method 'SyndicationResourceMetadata.operator &lt;(SyndicationResourceMetadata, SyndicationResourceMetadata)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SyndicationResourceSaveSettings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.SyndicationResourceSaveSettings,Argotic.Common.SyndicationResourceSaveSettings)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceSaveSettings.cs" Line="269">In externally visible method 'SyndicationResourceSaveSettings.operator ==(SyndicationResourceSaveSettings, SyndicationResourceSaveSettings)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.SyndicationResourceSaveSettings,Argotic.Common.SyndicationResourceSaveSettings)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceSaveSettings.cs" Line="332">In externally visible method 'SyndicationResourceSaveSettings.operator &gt;(SyndicationResourceSaveSettings, SyndicationResourceSaveSettings)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.SyndicationResourceSaveSettings,Argotic.Common.SyndicationResourceSaveSettings)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="SyndicationResourceSaveSettings.cs" Line="307">In externally visible method 'SyndicationResourceSaveSettings.operator &lt;(SyndicationResourceSaveSettings, SyndicationResourceSaveSettings)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TrackbackDiscoveryMetadata" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_Equality(Argotic.Common.TrackbackDiscoveryMetadata,Argotic.Common.TrackbackDiscoveryMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="TrackbackDiscoveryMetadata.cs" Line="446">In externally visible method 'TrackbackDiscoveryMetadata.operator ==(TrackbackDiscoveryMetadata, TrackbackDiscoveryMetadata)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThan(Argotic.Common.TrackbackDiscoveryMetadata,Argotic.Common.TrackbackDiscoveryMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="TrackbackDiscoveryMetadata.cs" Line="509">In externally visible method 'TrackbackDiscoveryMetadata.operator &gt;(TrackbackDiscoveryMetadata, TrackbackDiscoveryMetadata)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(Argotic.Common.TrackbackDiscoveryMetadata,Argotic.Common.TrackbackDiscoveryMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="TrackbackDiscoveryMetadata.cs" Line="484">In externally visible method 'TrackbackDiscoveryMetadata.operator &lt;(TrackbackDiscoveryMetadata, TrackbackDiscoveryMetadata)', validate parameter 'first' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="TrackbackDiscoveryMetadata.cs" Line="342">Object 'stream' can be disposed more than once in method 'TrackbackDiscoveryMetadata.ToString()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 342</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WebRequestOptions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ApplyOptions(System.Net.WebRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="WebRequestOptions.cs" Line="365">In externally visible method 'WebRequestOptions.ApplyOptions(WebRequest)', validate parameter 'request' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ClientCertificates" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="WebRequestOptions.cs" Line="339">Change 'WebRequestOptions.ClientCertificates' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Headers" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="m:\dev\prj\Argotic\Argotic.Common" File="WebRequestOptions.cs" Line="95">Change 'WebRequestOptions.Headers' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Referer" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Referer" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-04-02 08:36:07Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="m:\dev\prj\Argotic\Argotic.Common" File="WebRequestOptions.cs" Line="296">Correct the spelling of 'Referer' in member name 'WebRequestOptions.Referer' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227">
+   <Name>Collection properties should be read only</Name>
+   <Description>Properties that return collections should be read-only so that users cannot entirely replace the backing store. Users can still modify the contents of the collection by calling relevant methods on the collection. Note that the XmlSerializer class has special support for deserializing read-only collections. See the XmlSerializer overview for more information.</Description>
+   <Resolution Name="Default">Change {0} to be read-only by removing the property setter.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182327.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="ExceptionEdge">In method {0}, object {1} is not disposed along all exception paths. Call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 342</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208">
+   <Name>Instantiate argument exceptions correctly</Name>
+   <Description>String arguments passed to constructors of ArgumentException and its derived types should be correct. Types derived from ArgumentException have inconsistent constructor overloads with respect to the message and paramName parameters as compared to ArgumentException.</Description>
+   <Resolution Name="IncorrectParameterName">Method {0} passes '{1}' as the {2} argument to a {3} constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182347.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>Specify StringComparison</Name>
+   <Description>If an overload exists that takes a StringComparison argument, it should always be called in favor of an overload that does not.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -77,7 +77,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Argotic.Common\Argotic.Common.csproj">
       <Project>{79D1199E-CB01-4EC5-B778-7D54605B92F3}</Project>
-      <Name>Argotic.Common %28Microsoft .NET 3.5\Argotic.Common%29</Name>
+      <Name>Argotic.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
