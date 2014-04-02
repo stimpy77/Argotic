@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Argotic.Extensions.Tests</RootNamespace>
     <AssemblyName>Argotic.Extensions.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <SccProjectName>SAK</SccProjectName>
@@ -36,6 +36,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,6 +47,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -55,6 +57,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
@@ -76,20 +79,6 @@
     <Compile Include="Functionality\Core\Pheed\PheedSyndicationExtensionTest.cs" />
     <Compile Include="Issues\ITunesSyndicationExtensionContextTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Argotic.Common\Argotic.Common.csproj">
-      <Project>{79D1199E-CB01-4EC5-B778-7D54605B92F3}</Project>
-      <Name>Argotic.Common %28Microsoft .NET 3.5\Argotic.Common%29</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Argotic.Core\Argotic.Core.csproj">
-      <Project>{811ECA97-C7B9-4D4B-8D02-A15B26022AED}</Project>
-      <Name>Argotic.Core %28Microsoft .NET 3.5\Argotic.Core%29</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Argotic.Extensions\Argotic.Extensions.csproj">
-      <Project>{109B4CA6-4253-4E5D-9AD8-A2308C71A9F6}</Project>
-      <Name>Argotic.Extensions %28Microsoft .NET 3.5\Argotic.Extensions%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Shadow Include="Test References\Argotic.Extensions.accessor" />
@@ -116,7 +105,20 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Argotic.Common\Argotic.Common.csproj">
+      <Project>{79d1199e-cb01-4ec5-b778-7d54605b92f3}</Project>
+      <Name>Argotic.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Argotic.Core\Argotic.Core.csproj">
+      <Project>{811eca97-c7b9-4d4b-8d02-a15b26022aed}</Project>
+      <Name>Argotic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Argotic.Extensions\Argotic.Extensions.csproj">
+      <Project>{109b4ca6-4253-4e5d-9ad8-a2308c71a9f6}</Project>
+      <Name>Argotic.Extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
