@@ -1,0 +1,4 @@
+Argotic
+=======
+
+Argotic Syndication Framework
