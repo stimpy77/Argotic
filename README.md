@@ -3,6 +3,10 @@ Argotic
 
 ### Argotic Syndication Framework ###
 
+To add the current version of Argotic in your project using NuGet, run the following command from the Package Manager console:
+
+    Install-Package Argotic
+
 This is a CodePlex-to-github fork, to update to .NET Framework v4.5 and continue to apply updates to the Argotic framework. The offical implementation of Argotic is hosted at:
 
 **[http://argotic.codeplex.com/](http://argotic.codeplex.com/)**
