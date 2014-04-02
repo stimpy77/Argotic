@@ -1,1 +1,1 @@
-This CodePlex-legacy folder contains the original source found at the original project site at http://argotic.codeplex.com/
+This CodePlex-legacy folder contains the original source found at the original project site at http://argotic.codeplex.com/ as of April 1, 2014.
